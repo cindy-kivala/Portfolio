@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+body {
+    background: whitesmoke;
+    color: black;
+    display: flex;
+    height: 100%;
+}
+.hero-container {
+    display: flex;
+    background: white;
+    text-align: center;
+    width: 45%;
+    padding:30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 1200px;
+}
+.hero-container h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.hero-container p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+.hero-container img {
+    height: auto;
+    width: 260px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    padding: 0;
+}
+/*FIX THE MARGINS AND FONTS TO BETTER FIT THE PAGE IN %*/
+.hero-container button {
+    padding: 10px 25px;
+    background: rgb(46, 45, 45);
+    cursor:pointer;
+    border: none;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    text-decoration: none;
+}
+/*FIX EMAIL REDIRECTOR*/
+.hero-container .icons {
+    display: flex;
+    align-self: center;
+    justify-items: space-around;
+    padding: 10px;
+    margin: 30px;
+    height: 75px;
+}
+.intro {
+    width: 70%;
+    height: 1200px;
+    text-align: center;
+     background: #818080;
+     color: white;
+     display:flex;
+     flex-direction: column;
+     justify-content: center;
+}
+.intro h2 {
+    font-size: 4.2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.intro p {
+    font-size: 25px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+.intro-icons {
+    display: flex;
+    align-self: center;
+    justify-items: space-around;
+    padding: 0px;
+    margin: 20px;
+    height: 60px;
+}
+.icons img {
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    margin: 20px;
+    height: 65px;
+    width: 28px;
+    cursor:pointer;
+}
+.buttons {
+    display: flex;
+    text-align: center;
+    gap: 12%;
+    align-self: center;
+    flex-direction: row;
+    margin: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+    /*confirm gap*/
+}
+.buttons button {
+    padding: 12px 35px;
+    background: rgb(46, 45, 45);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 25px;
+    gap: 30px;
+}
+h1 {
+    font-size: 4em;
+    font-weight: bold;
+}
+h2{
+    font-size: 2em;
+    font-weight: normal;
+    color: #504f4f;
+}
